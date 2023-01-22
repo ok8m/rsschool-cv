@@ -1,0 +1,83 @@
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 109px 0 109px;
+  background-color: #ffffff;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 49px 0 40px 0;
+}
+
+.social-list {
+  display: flex;
+}
+
+.footer-text {
+  margin-right: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-text:last-child {
+  margin-right: 0;
+}
+
+.footer-data {
+  margin-right: 337px;
+}
+
+.footer-link {
+  margin-right: 318px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-link:hover,
+.footer-text:hover {
+  color: #e06733;
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+.social-item {
+  margin-right: 20px;
+}
+
+.social-item:last-child {
+  margin-right: 0;
+}
+
+
+a svg:hover #instagram {
+  fill: rgb(225, 48, 108);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+a svg:hover #facebook {
+  fill: rgb(66, 103, 178);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+a svg:hover #twitter {
+  fill: rgb(29, 155, 240);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+a svg:hover #pinterest {
+  fill: rgb(230, 0, 35);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
