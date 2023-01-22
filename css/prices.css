@@ -1,0 +1,182 @@
+.prices {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 109px 120px 109px;
+  background-color: #ffffff;
+}
+
+.prices-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: flex-start;
+}
+
+.prices-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.prices-list {
+  max-width: 332px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  padding: 34px 41px;
+}
+
+.prices-container {
+  width: 250px;
+  background: #edf2ec;
+  border-radius: 20px;
+  padding: 15px 41px 12px 40px;
+  position: relative;
+  margin-bottom: 34px;
+  transition: ease 0.5s;
+}
+
+.prices-container:last-child {
+  margin-bottom: 0;
+}
+
+.prices-container .active {
+  background: #d6e7d2;
+}
+
+.active .prices-content {
+  display: block;
+  transition: ease 0.9s;
+}
+
+.prices-content {
+  margin-top: 6px;
+  position: relative;
+  display: none;
+  overflow: hidden;
+  transition: ease 0.9s;
+}
+
+hr {
+  margin-top: 12px;
+  display: none;
+}
+
+.active hr {
+  display: block;
+}
+
+.prices-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 20px;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+}
+
+.prices-label::before {
+  content: url("../image/accordion_btn_close.png");
+  position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.active .prices-container .prices-label::before {
+  content: url("../image/accordion_btn_open.png");
+}
+
+.content-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 10px;
+  color: #717171;
+}
+
+.content-prices {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.prices-color {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #e06733;
+}
+
+.prices-button {
+  width: 86px;
+  height: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+
+.prices-text-call {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 452px;
+}
+
+.btn-contact {
+  width: 162px;
+  height: 50px;
+  border: 1px solid rgba(224, 103, 51, 1);
+  background: #ffffff;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #e06733;
+  border-radius: 5px;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background: #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.prices-pic {
+  width: 150px;
+}
+
+.text-call-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.text-call-color {
+  color: rgba(73, 154, 24, 1);
+}

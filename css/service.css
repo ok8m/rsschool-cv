@@ -1,0 +1,102 @@
+.service {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 72px 109px 65px 109px;
+  background-color: #edf2ec;
+}
+
+.service-wrapper {
+  background-color: #edf2ec;
+}
+
+.service-wrapper-item {
+  display: flex;
+  align-items: center;
+  max-width: 1149px;
+  height: 45px;
+}
+
+.service-title {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 52px;
+  color: #499a18;
+}
+
+.service-button {
+  width: 161px;
+  height: 50px;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  margin-right: 32px;
+  cursor: pointer;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+}
+
+.service-button:hover,
+.service-button:focus,
+.service-button:active {
+  background: #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.service-title-wrapper {
+  max-width: 306px;
+  margin-right: 142px;
+}
+
+.service-list {
+  display: flex;
+  margin-top: 109px;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  text-align: center;
+  max-width: 330px;
+  height: 450px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 116px 55px 0;
+}
+
+.service-item:nth-child(3),
+:nth-child(6) {
+  margin-right: 0;
+}
+
+.service-item-pic {
+  width: 100%;
+}
+
+.service-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+}
+
+.service-discription {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 13px;
+  text-align: center;
+}
